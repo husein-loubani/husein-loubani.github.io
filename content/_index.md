@@ -139,6 +139,13 @@ sections:
           title: Research Ethics
           url: ''
 
+        - certificate_url: https://www.udemy.com/certificate/UC-a4dbbf75-68d4-4fe4-a15b-70ee59b4550f/
+          date_start: '2023-03-27'
+          description: ''
+          organization: Udemy
+          organization_url: https://www.udemy.com/
+          title: Machine Learning Real World Projects in Python
+          url: ''
 
         - certificate_url: ''
           date_start: '2023-02-24'
