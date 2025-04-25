@@ -60,14 +60,14 @@ sections:
           location: Montbéliard, France - On-site
           date_start: '2023-12-01'
           date_end: '2026-12-30'
-          description: Thesis Subject: Generating virtual environments for the training of autonomous vehicles.
+          description: |2- Thesis Subject: Generating virtual environments for the training of autonomous vehicles.
 
         - title: AI Vision & Robotics Engineer
           company: ImViA Lab - Intern
           location: Le Creusot, France - On-site
           date_start: '2023-02-01'
           date_end: '2023-07-01'
-          description: As part of my Master's thesis at ImViA Lab, I worked on visuo-tactile perception for in and on-hand robotic manipulation, focusing on detecting object slippage using the Franka Emika 3 Panda robot: 
+          description: |2- As part of my Master's thesis at ImViA Lab, I worked on visuo-tactile perception for in and on-hand robotic manipulation, focusing on detecting object slippage using the Franka Emika 3 Panda robot: 
           – Developed a visuo-tactile fusion pipeline using LSTM and GRU-based RNN models to estimate object pose during dynamic manipulation, even under occlusion.
           – Designed and executed pick-and-place experiments in simulation using PyBullet and transitioned models to a real-world robotic platform.
           – Integrated tactile sensing with vision data to detect object slippage during actions like rotation, sliding, and flipping.
@@ -79,7 +79,7 @@ sections:
           location: Beirut, Lebanon - Hybrid
           date_start: '2021-03-01'
           date_end: '2021-06-30'
-          description: Participated in the Employment Hub Program, aimed at supporting financially vulnerable Lebanese youth through skill-building and paid internships:
+          description: |2- Participated in the Employment Hub Program, aimed at supporting financially vulnerable Lebanese youth through skill-building and paid internships:
           – Completed comprehensive training in time management, teamwork, problem-solving, and communication, enhancing employability skills.
           – Collaborated with mentors to receive personalized guidance, fostering both personal and professional development.
           – Engaged in projects addressing social challenges, applying newly acquired skills in practical settings.
@@ -91,7 +91,7 @@ sections:
           location: Beirut, Lebanon - Hybrid
           date_start: '2021-01-01'
           date_end: '2021-03-01'
-          description: During my internship at CPPR.bl3arabi, I contributed to the development of web and mobile applications, enhancing my technical skills and project experience:​
+          description:|2- During my internship at CPPR.bl3arabi, I contributed to the development of web and mobile applications, enhancing my technical skills and project experience:​
           – Developed responsive web interfaces using HTML, CSS, and JavaScript, ensuring cross-browser compatibility and user-friendly design.
           – Built dynamic single-page applications with React and Angular, improving user engagement and performance.
           – Assisted in the development of mobile applications for both iOS and Android platforms, utilizing platform-specific technologies.
