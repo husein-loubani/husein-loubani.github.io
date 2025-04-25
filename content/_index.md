@@ -112,50 +112,16 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-       
-
-        - certificate_url: https://openbadgefactory.com/v1/assertion/832c1294a05ae5feb2fc5d03f66b3bf2a17b548a
+        - certificate_url: https://openbadgefactory.com/v1/assertion/8e9ac953d025869883d4f673027c1e0e34a1a91a
           date_end: ''
-          date_start: '2025-03-12'
+          date_start: '2025-04-24'
           description: ''
-          organization: Sorbonne Université
-          organization_url: https://www.sorbonne-universite.fr
-          title: Open Science
+          organization: Ministère chargé de l'Enseignement supérieur et de la Recherche
+          organization_url: https://www.enseignementsup-recherche.gouv.fr/fr
+          title: FORMENSUP - Training to Teach in Higher Education
           url: ''
 
-        - certificate_url: https://openbadgefactory.com/v1/assertion/832c1294a05ae5feb2fc5d03f66b3bf2a17b548a
-          date_end: ''
-          date_start: '2025-02-12'
-          description: ''
-          organization: Université de Lyon
-          organization_url: https://www.universite-lyon.fr/version-francaise/
-          title: Research Ethics
-          url: ''
-
-        - certificate_url: https://www.udemy.com/certificate/UC-a4dbbf75-68d4-4fe4-a15b-70ee59b4550f
-          date_start: '2023-03-27'
-          description: ''
-          organization: Udemy
-          organization_url: https://www.udemy.com/
-          title: Machine Learning Real World Projects in Python
-          url: ''
-
-        - certificate_url: ''
-          date_start: '2023-03-15'
-          description: ''
-          organization: The Construct
-          organization_url: https://www.theconstruct.ai/
-          title: ROS Perception
-          url: ''
-
-
-        - certificate_url: https://app.theconstruct.ai/accomplishments/verify/RIA7494DB9F9079/
-          date_start: '2023-01-23'
-          description: ''
-          organization: The Construct
-          organization_url: https://www.theconstruct.ai/
-          title: Code Foundation for ROS
-          url: ''
+      
             
 
   - block: contact
