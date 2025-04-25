@@ -56,68 +56,105 @@ education:
 # Skills
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
 skills:
-
   - name: Programming & Development
-  items: 
+    items: 
     
     - name: Python
       description: ''
+      icon: python
+      icon_pack: fab
       
     - name: Data Science
       description: ''
+      icon: chart-line
+      icon_pack: fas
       
     - name: SQL
       description: ''
+      icon: database
+      icon_pack: fas
       
     - name: C/C++
       description: ''
+      icon: cplusplus
+      icon_pack: fab
       
     - name: C#
       description: ''
+      icon: csharp
+      icon_pack: fab
       
     - name: CUDA
       description: ''
+      icon: gpu
+      icon_pack: fas
       
     - name: CMake
       description: ''
+      icon: cmake
+      icon_pack: fab
       
     - name: Matlab
       description: ''
+      icon: matlab
+      icon_pack: fab
     
     - name: Bash & Shell Scripting 
       description: ''
-    
+      icon: bash
+      icon_pack: fab
+
     - name: Git & GitHub
       description: ''
+      icon: github
+      icon_pack: fab
       
     - name: ROS
       description: ''
+      icon: cpu
+      icon_pack: fab
 
+      
   - name: Software
     color: '#eeac02'
     color_border: '#f0bf23'
+    
     items:
     
-    - name: Linux
-      description: ''
+      - name: Linux
+        description: ''
+        icon: linux
+        icon_pack: fab
         
-    - name: Tensorflow
-      description: ''
+      - name: Tensorflow
+        description: ''
+        icon: tensorflow
+        icon_pack: fab
         
-    - name: Pytorch
-      description: ''
+      - name: Pytorch
+        description: ''
+        icon: pytorch
+        icon_pack: fab
         
-    - name: Docker
-      description: ''
+      - name: Docker
+        description: ''
+        icon: docker
+        icon_pack: fab
         
-    - name: OpenCV
-      description: ''
+      - name: OpenCV
+        description: ''
+        icon: opencv
+        icon_pack: fab
         
-    - name: ROS
-      description: ''
+      - name: ROS
+        description: ''
+        icon: ros
+        icon_pack: fab
         
-    - name: Gazebo
-      description: ''
+      - name: Gazebo
+        description: ''
+        icon: gazebo
+        icon_pack: fab
         
 
 # Social/Academic Networking
