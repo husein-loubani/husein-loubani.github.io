@@ -112,9 +112,49 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        
+        - certificate_url: https://openbadgefactory.com/v1/assertion/832c1294a05ae5feb2fc5d03f66b3bf2a17b548a
+          date_end: ''
+          date_start: '2025-03-12'
+          description: ''
+          organization: Sorbonne Université
+          organization_url: https://www.sorbonne-universite.fr
+          title: Open Science
+          url: ''
 
-        
+        - certificate_url: https://openbadgefactory.com/v1/assertion/832c1294a05ae5feb2fc5d03f66b3bf2a17b548a
+          date_end: ''
+          date_start: '2025-02-12'
+          description: ''
+          organization: Université de Lyon
+          organization_url: https://www.universite-lyon.fr/version-francaise/
+          title: Research Ethics
+          url: ''
+
+        - certificate_url: https://www.udemy.com/certificate/UC-a4dbbf75-68d4-4fe4-a15b-70ee59b4550f
+          date_start: '2023-03-27'
+          description: ''
+          organization: Udemy
+          organization_url: https://www.udemy.com/
+          title: Machine Learning Real World Projects in Python
+          url: ''
+
+        - certificate_url: https://www.udemy.com/certificate/UC-ea3d34b2-550e-4dee-9162-82c28bad18a5
+          date_start: '2023-02-24'
+          description: ''
+          organization: Udemy
+          organization_url: https://www.udemy.com/
+          title: Python: Master Programming & Development with 15 Projects
+          url: ''
+
+      
+        - certificate_url: https://app.theconstruct.ai/accomplishments/verify/RIA7494DB9F9079/
+          date_start: '2023-01-23'
+          description: ''
+          organization: The Construct
+          organization_url: https://www.theconstruct.ai/
+          title: Code Foundation for ROS
+          url: ''
+            
 
   - block: contact
     id: contact
