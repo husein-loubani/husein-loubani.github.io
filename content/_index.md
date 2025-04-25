@@ -59,7 +59,7 @@ sections:
           company: CIAD Lab - Contact
           location: Montbéliard, France - On-site
           date_start: '2023-12-01'
-          date_end: '2026-12-30'
+          date_end: ''
           description: Thesis Subject: Generating virtual environments for the training of autonomous vehicles.
 
         - title: AI Vision & Robotics Engineer
