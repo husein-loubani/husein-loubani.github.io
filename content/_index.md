@@ -138,13 +138,7 @@ sections:
           title: Machine Learning Real World Projects in Python
           url: ''
           
-        - certificate_url: ''
-          date_start: '2023-03-15'
-          description: ''
-          organization: The Construct
-          organization_url: https://www.theconstruct.ai/
-          title: ROS Perception
-          url: ''
+   
 
 
 
