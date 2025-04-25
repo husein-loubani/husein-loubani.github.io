@@ -65,7 +65,40 @@ sections:
             • Developed PX4 drivers to integrate sensors with Pixhawk for aerial inspection systems.
             • Built Python-based test bench systems for performance and integration testing.
             • Collaborated with a multidisciplinary team to drive innovations in aerial inspection technology.
-        
+
+        - title: Robotics and Computer Vision Engineer
+          company: Prime Smart Systems
+          location: Remote
+          date_start: '2021-07-01'
+          date_end: '2024-09-30'
+          description: |2-
+            • Designed and deployed computer vision solutions using OpenCV and Python for industrial automation.
+
+        - title: Robotics & Control Engineer Thesis Intern
+          company: ImViA
+          location: Le Creusot, France
+          date_start: '2023-01-01'
+          date_end: '2023-06-30'
+          description: |2-
+            • Engineered non-linear control systems for drones and robots with vision-based autonomy.
+            • Implemented on AR Drone 2.0, DJI Tello Drone, and TurtleBot3 platforms.
+
+        - title: Robotics & Control Engineer Intern
+          company: Z‑PARADISE SAS
+          location: Staffelfelden, France
+          date_start: '2022-06-01'
+          date_end: '2022-09-30'
+          description: |2-
+            • Developed a solar-powered pool filtration system using ESP32 and Z‑wave communication protocol.
+
+        - title: Robotic Software Engineer
+          company: Sky High Escape Rooms
+          location: Remote
+          date_start: '2020-08-01'
+          date_end: '2020-10-31'
+          description: |2-
+            • Created a Raspberry Pi-based escape room interface using Node‑RED and Python for multi-sensory interaction.
+
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
@@ -79,86 +112,54 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://openbadgefactory.com/v1/assertion/8e9ac953d025869883d4f673027c1e0e34a1a91a
+        - certificate_url: https://www.kaggle.com/learn/certification/mutteurrehman/python
           date_end: ''
-          date_start: '2025-04-24'
+          date_start: '2023-02-25'
           description: ''
-          organization: Ministère chargé de l'Enseignement supérieur et de la Recherche
-          organization_url: ''
-          title: FORMENSUP: Training to Teach in Higher Education
+          organization: Kaggle
+          organization_url: https://www.kaggle.com
+          title: Python
           url: ''
 
-        - certificate_url: https://openbadgefactory.com/v1/assertion/832c1294a05ae5feb2fc5d03f66b3bf2a17b548a
+
+        - certificate_url: https://app.theconstructsim.com/accomplishments/verify/RIA4DE0911ABB7D/
           date_end: ''
-          date_start: '2025-03-12'
-          description: ''
-          organization: Sorbonne Université
-          organization_url: ''
-          title: Open Science
-          url: ''
-
-        - certificate_url: https://openbadgefactory.com/v1/assertion/832c1294a05ae5feb2fc5d03f66b3bf2a17b548a
-          date_end: ''
-          date_start: '2025-02-12'
-          description: ''
-          organization: Université de Lyon
-          organization_url: ''
-          title: Research Ethics
-          url: ''
-
-        - certificate_url: ''
-          date_start: '2023-03-27'
-          description: ''
-          organization: Udemy
-          organization_url: ''
-          title: Machine Learning Real World Projects in Python
-          url: ''
-
-        - certificate_url: ''
-          date_start: '2023-02-24'
-          description: ''
-          organization: Udemy
-          organization_url: ''
-          title: Python: Master Programming & Development with 15 Projects
-          url: ''
-
-        - certificate_url: ''
-          date_start: '2023-03-15'
-          description: ''
-          organization: ''
-          organization_url: ''
-          title: ROS Perception
-          url: ''
-
-        - certificate_url: ''
-          date_start: '2023-02-09'
-          description: ''
-          organization: ''
-          organization_url: ''
-          title: Mastering with ROS: TurtleBot3
-          url: ''
-
-        - certificate_url: ''
-          date_start: '2023-01-23'
-          description: ''
-          organization: ''
-          organization_url: ''
+          date_start: '2022-12-24'
+          description: 
+          organization: The Construct
+          organization_url: https://www.theconstructsim.com
           title: Code Foundation for ROS
+          url: https://app.theconstructsim.com/learning-paths/code-foundation-for-ros/
+
+        - certificate_url: https://courses.edx.org/certificates/a586a82803f444ffa6fed29dc4239415
+          date_end: ''
+          date_start: '2021-04-01'
+          description: ''
+          organization: edx
+          organization_url: https://www.edx.org
+          title: 'Technology Entrepreneurship: Lab to Market'
           url: ''
-      
-          
-          
+
+
+        - certificate_url: https://www.linkedin.com/learning/certificates/0909b94f3357aeac061b6703b26de8b308a8007fbbf90ad4bf5439607189508a
+          date_end: ''
+          date_start: '2022-10-01'
+          description: ''
+          organization: LinkedIn
+          organization_url: https://www.linkedin.com
+          title: 'Machine Learning with Python: Foundations'
+          url: ''
 
   - block: contact
     id: contact
     content:
       title: Contact
-      email: Hussein_lobs@outlook.com
-      phone: +33 07 50 00 39 07
-      appointment_url: 'https://calendly.com/hussein_lobs'
+      email: muttequreshi@gmail.com
+      phone: +33 07 83 85 3998
+      appointment_url: 'https://calendly.com/muttequreshi'
       address:
-        city: Montbéliard
-        postcode: '25200'
+        city: Paris
+        postcode: '75019'
         country: France
         country_code: FR
     design:
