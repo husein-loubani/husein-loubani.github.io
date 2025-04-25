@@ -55,49 +55,54 @@ sections:
       title: Experience
       date_format: Jan 2006
       items:
-        - title: Embedded Systems Engineer
-          company: HyLight
-          location: Le Plessis‑Pâté, France
-          date_start: '2024-06-01'
-          date_end: '2025-01-31'
-          description: |2-
-            • Leading the design and development of custom PCB circuit boards tailored for hydrogen airships.
-            • Developed PX4 drivers to integrate sensors with Pixhawk for aerial inspection systems.
-            • Built Python-based test bench systems for performance and integration testing.
-            • Collaborated with a multidisciplinary team to drive innovations in aerial inspection technology.
+        - title: Doctoral Researcher
+          company: CIAD Lab - Contact
+          location: Montbéliard, France - On-site
+          date_start: '2023-12-01'
+          date_end: '2026-12-30'
+          description: |2- 
+            • Thesis Subject: Generating virtual environments for the training of autonomous vehicles.
 
-        - title: Robotics and Computer Vision Engineer
-          company: Prime Smart Systems
-          location: Remote
-          date_start: '2021-07-01'
-          date_end: '2024-09-30'
-          description: |2-
-            • Designed and deployed computer vision solutions using OpenCV and Python for industrial automation.
-
-        - title: Robotics & Control Engineer Thesis Intern
-          company: ImViA
-          location: Le Creusot, France
-          date_start: '2023-01-01'
-          date_end: '2023-06-30'
-          description: |2-
-            • Engineered non-linear control systems for drones and robots with vision-based autonomy.
-            • Implemented on AR Drone 2.0, DJI Tello Drone, and TurtleBot3 platforms.
-
-        - title: Robotics & Control Engineer Intern
-          company: Z‑PARADISE SAS
-          location: Staffelfelden, France
-          date_start: '2022-06-01'
-          date_end: '2022-09-30'
-          description: |2-
-            • Developed a solar-powered pool filtration system using ESP32 and Z‑wave communication protocol.
-
-        - title: Robotic Software Engineer
-          company: Sky High Escape Rooms
-          location: Remote
-          date_start: '2020-08-01'
-          date_end: '2020-10-31'
-          description: |2-
-            • Created a Raspberry Pi-based escape room interface using Node‑RED and Python for multi-sensory interaction.  
+        - title: AI Vision & Robotics Engineer
+          company: ImViA Lab - Intern
+          location: Le Creusot, France - On-site
+          date_start: '2023-02-01'
+          date_end: '2023-07-01'
+          description: |2- 
+            • As part of my Master's thesis at ImViA Lab, I worked on visuo-tactile perception for in and on-hand robotic manipulation, focusing on detecting object slippage using the Franka Emika 3 Panda robot: 
+            • Developed a visuo-tactile fusion pipeline using LSTM and GRU-based RNN models to estimate object pose during dynamic manipulation, even under occlusion.
+            • Designed and executed pick-and-place experiments in simulation using PyBullet and transitioned models to a real-world robotic platform.
+            • Integrated tactile sensing with vision data to detect object slippage during actions like rotation, sliding, and flipping.
+            • Built pose estimation and control modules in Python and implemented the complete system on ROS using the Franka Emika 3 Panda arm.
+            • Evaluated performance through quantitative pose error metrics and object visibility-based visualization tools.
+          
+        - title: CultivateMinds: Nurturing Excellence in Soft Skills 
+          company: The Nawaya Network - Intern
+          location: Beirut, Lebanon - Hybrid
+          date_start: '2021-03-01'
+          date_end: '2021-06-30'
+          description: |2- 
+            • Participated in the Employment Hub Program, aimed at supporting financially vulnerable Lebanese youth through skill-building and paid internships:
+            • Completed comprehensive training in time management, teamwork, problem-solving, and communication, enhancing employability skills.
+            • Collaborated with mentors to receive personalized guidance, fostering both personal and professional development.
+            • Engaged in projects addressing social challenges, applying newly acquired skills in practical settings.
+            • Balanced remote and in-person collaboration, adapting to hybrid work environments effectively.
+            • Contributed to initiatives designed to improve livelihoods and promote sustainable futures for disadvantaged communities.
+          
+        - title: Web & Mobile App Developer
+          company: CPPR.bl3arabi - Intern
+          location: Beirut, Lebanon - Hybrid
+          date_start: '2021-01-01'
+          date_end: '2021-03-01'
+          description: |2- 
+            • During my internship at CPPR.bl3arabi, I contributed to the development of web and mobile applications, enhancing my technical skills and project experience:​
+            • Developed responsive web interfaces using HTML, CSS, and JavaScript, ensuring cross-browser compatibility and user-friendly design.
+            • Built dynamic single-page applications with React and Angular, improving user engagement and performance.
+            • Assisted in the development of mobile applications for both iOS and Android platforms, utilizing platform-specific technologies.
+            • Provided technical consulting to internal teams, offering insights on best practices and innovative solutions for project challenges.
+            • Gained experience in version control systems and agile development methodologies, contributing to efficient workflow and team coordination.
+        
+  
         
   - block: accomplishments
     content:
