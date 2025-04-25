@@ -117,7 +117,7 @@ sections:
           date_start: '2025-04-24'
           description: ''
           organization: Ministère chargé de l'Enseignement supérieur et de la Recherche
-          organization_url: 
+          organization_url: ''
           title: FORMENSUP: Training to Teach in Higher Education
           url: ''
           
@@ -126,7 +126,7 @@ sections:
           date_start: '2025-03-12'
           description: ''
           organization: Sorbonne Université
-          organization_url: 
+          organization_url: ''
           title: Open Science 
           url: ''
 
@@ -136,7 +136,7 @@ sections:
           date_start: '2025-02-12'
           description: ''
           organization: Univeristé de Lyon 
-          organization_url: 
+          organization_url: ''
           title: Research Ethics
           url: ''
           
@@ -144,7 +144,7 @@ sections:
           date_start: '2023-03-27'
           description: ''
           organization: Udemy
-          organization_url: 
+          organization_url: ''
           title: Machine Learning Real World Projects in Python
           url: ''
           
@@ -153,7 +153,7 @@ sections:
           date_start: '2023-02-24'
           description: ''
           organization: Udemy 
-          organization_url: 
+          organization_url: ''
           title: Python: Master Programing & Development with 15 Projects
           url: ''
           
@@ -161,8 +161,8 @@ sections:
           date_end: ''
           date_start: '2023-03-15'
           description: ''
-          organization: 
-          organization_url: 
+          organization: ''
+          organization_url: ''
           title: ROS Perception
           url: ''
           
@@ -170,8 +170,8 @@ sections:
           date_end: ''
           date_start: '2023-02-09'
           description: ''
-          organization: 
-          organization_url: 
+          organization: ''
+          organization_url: ''
           title: Mastering with ROS: TurtleBot3
           url: ''
           
@@ -179,8 +179,8 @@ sections:
           date_end: ''
           date_start: '2023-01-23'
           description: ''
-          organization: 
-          organization_url: 
+          organization: ''
+          organization_url: ''
           title: Code Foundation for ROS
           url: ''
 
