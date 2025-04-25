@@ -112,71 +112,42 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://openbadgefactory.com/v1/assertion/8e9ac953d025869883d4f673027c1e0e34a1a91a
+        - certificate_url: https://www.kaggle.com/learn/certification/mutteurrehman/python
           date_end: ''
-          date_start: '2025-04-24'
+          date_start: '2023-02-25'
           description: ''
-          organization: Ministère chargé de l'Enseignement supérieur et de la Recherche
-          organization_url: https://www.enseignementsup-recherche.gouv.fr/fr
-          title: FORMENSUP: Training to Teach in Higher Education
+          organization: Kaggle
+          organization_url: https://www.kaggle.com
+          title: Python
           url: ''
 
-        - certificate_url: https://openbadgefactory.com/v1/assertion/832c1294a05ae5feb2fc5d03f66b3bf2a17b548a
+
+        - certificate_url: https://app.theconstructsim.com/accomplishments/verify/RIA4DE0911ABB7D/
           date_end: ''
-          date_start: '2025-03-12'
-          description: ''
-          organization: Sorbonne Université
-          organization_url: https://www.sorbonne-universite.fr
-          title: Open Science
-          url: ''
-
-        - certificate_url: https://openbadgefactory.com/v1/assertion/832c1294a05ae5feb2fc5d03f66b3bf2a17b548a
-          date_end: ''
-          date_start: '2025-02-12'
-          description: ''
-          organization: Université de Lyon
-          organization_url: https://www.universite-lyon.fr/version-francaise/
-          title: Research Ethics
-          url: ''
-
-        - certificate_url: ''
-          date_start: '2023-03-27'
-          description: ''
-          organization: Udemy
-          organization_url: https://www.udemy.com/
-          title: Machine Learning Real World Projects in Python
-          url: ''
-
-        - certificate_url: ''
-          date_start: '2023-02-24'
-          description: ''
-          organization: Udemy
-          organization_url: https://www.udemy.com/
-          title: Python: Master Programming & Development with 15 Projects
-          url: ''
-
-        - certificate_url: ''
-          date_start: '2023-03-15'
-          description: ''
+          date_start: '2022-12-24'
+          description: 
           organization: The Construct
-          organization_url: https://www.theconstruct.ai/
-          title: ROS Perception
-          url: ''
-
-        - certificate_url: ''
-          date_start: '2023-02-09'
-          description: ''
-          organization: The Construct
-          organization_url: https://www.theconstruct.ai/
-          title: Mastering with ROS: TurtleBot3
-          url: ''
-
-        - certificate_url: https://app.theconstruct.ai/accomplishments/verify/RIA7494DB9F9079/
-          date_start: '2023-01-23'
-          description: ''
-          organization: The Construct
-          organization_url: https://www.theconstruct.ai/
+          organization_url: https://www.theconstructsim.com
           title: Code Foundation for ROS
+          url: https://app.theconstructsim.com/learning-paths/code-foundation-for-ros/
+
+        - certificate_url: https://courses.edx.org/certificates/a586a82803f444ffa6fed29dc4239415
+          date_end: ''
+          date_start: '2021-04-01'
+          description: ''
+          organization: edx
+          organization_url: https://www.edx.org
+          title: 'Technology Entrepreneurship: Lab to Market'
+          url: ''
+
+
+        - certificate_url: https://www.linkedin.com/learning/certificates/0909b94f3357aeac061b6703b26de8b308a8007fbbf90ad4bf5439607189508a
+          date_end: ''
+          date_start: '2022-10-01'
+          description: ''
+          organization: LinkedIn
+          organization_url: https://www.linkedin.com
+          title: 'Machine Learning with Python: Foundations'
           url: ''
             
 
