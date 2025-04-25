@@ -147,13 +147,7 @@ sections:
           title: Machine Learning Real World Projects in Python
           url: ''
 
-        - certificate_url: ''
-          date_start: '2023-02-24'
-          description: ''
-          organization: Udemy
-          organization_url: https://www.udemy.com/
-          title: Python - Master Programming & Development with 15 Projects
-          url: ''
+    
 
         - certificate_url: ''
           date_start: '2023-03-15'
@@ -163,13 +157,7 @@ sections:
           title: ROS Perception
           url: ''
 
-        - certificate_url: ''
-          date_start: '2023-02-09'
-          description: ''
-          organization: The Construct
-          organization_url: https://www.theconstruct.ai/
-          title: Mastering with ROS - TurtleBot3
-          url: ''
+
 
         - certificate_url: https://app.theconstruct.ai/accomplishments/verify/RIA7494DB9F9079/
           date_start: '2023-01-23'
