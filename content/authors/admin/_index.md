@@ -1,13 +1,13 @@
 ---
 # Display name
-title: Mutte Ur REHMAN
+title: Hussein Loubani
 
 # Name pronunciation (optional)
 name_pronunciation:
 
 # Full name (for SEO)
-first_name: Mutte Ur 
-last_name: Rehman
+first_name: Hussein 
+last_name: Loubani
 
 # Status emoji
 status:
@@ -17,12 +17,12 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Computer Vision Engineer with Expertise in Robotics and UAVs
+role: PhD Researcher| AI & Computer Vision | Robotics | 3D Reconstruction | Autonomous Driving
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: 
-    url: 
+  - name: CIAD Lab
+    url: https://www.ciad-lab.fr/
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
@@ -32,142 +32,132 @@ interests:
   - Artificial Intelligence
   - Computer Vision
   - Robotics
-  - Embedded Systems
-  - UAV
+  - Autonomous Driving
+  - Machine Learning
+  - Deep Learning
+  - Virtual Environments
 
 # Education to show in About widget
 education:
   courses:
-    - course: MSc Computer Vision and Robotics (VIBOT)
-      institution: Universite de Bourgogne
-      year: 2023
-    - course: BE Mechatronics Engineering
-      institution: Air University Islamabad
-      year: 2019
+    - course: PhD - Computer Vision 
+      institution: Université de Technologie Belfort-Monbéliard
+      year: Dec 2026
+    - course: Graduate Professional Diploma - AI & Data Science
+      institution: American University of Beirut
+      year: June 2025
+    - course: MSc - Computer Vision and Robotics 
+      institution: Université Bourgogne Europe 
+      year: July 2023
+    - course: BSc - Computer Engineering
+      institution: Lebanese International University
+      year: Sep 2021
 
 # Skills
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
 skills:
-  - name: Programming
+
+
+  - name: Programming & Development
     items: 
+    
     - name: Python
       description: ''
       icon: python
       icon_pack: fab
+      
     - name: Data Science
       description: ''
       icon: chart-line
       icon_pack: fas
+      
     - name: SQL
       description: ''
       icon: database
       icon_pack: fas
+      
     - name: C/C++
       description: ''
       icon: cplusplus
       icon_pack: fab
+      
     - name: C#
       description: ''
       icon: csharp
       icon_pack: fab
-    - name: Embedded C
-      description: ''
-      icon: microchip
-      icon_pack: fas
-    - name: Catkin
-      description: ''
-      icon: cat
-      icon_pack: fab
+      
     - name: CUDA
       description: ''
       icon: gpu
       icon_pack: fas
+      
     - name: CMake
       description: ''
       icon: cmake
       icon_pack: fab
+      
     - name: Matlab
       description: ''
       icon: matlab
       icon_pack: fab
     
-    - name: Scripting (Bash)
+    - name: Bash & Shell Scripting 
       description: ''
       icon: bash
       icon_pack: fab
-    - name: Gstreamer
+
+    - name: Git & GitHub
       description: ''
-      icon: video
-      icon_pack: fas
-    - name: PyQT
-      description: ''
-      icon: pyqt
+      icon: github
       icon_pack: fab
-    - name: Tkinter
+      
+    - name: ROS
       description: ''
-      icon: tkinter
+      icon: cpu
       icon_pack: fab
+
+      
   - name: Software
     color: '#eeac02'
     color_border: '#f0bf23'
+    
     items:
+    
       - name: Linux
         description: ''
         icon: linux
         icon_pack: fab
-      - name: Pm2
-        description: ''
-        icon: pm2
-        icon_pack: fab
+        
       - name: Tensorflow
         description: ''
         icon: tensorflow
         icon_pack: fab
+        
       - name: Pytorch
         description: ''
         icon: pytorch
         icon_pack: fab
+        
       - name: Docker
         description: ''
         icon: docker
         icon_pack: fab
-      - name: Git
-        description: ''
-        icon: git
-        icon_pack: fab
+        
       - name: OpenCV
         description: ''
         icon: opencv
         icon_pack: fab
-      - name: Solidworks
-        description: ''
-        icon: solidworks
-        icon_pack: fab
+        
       - name: ROS
         description: ''
         icon: ros
         icon_pack: fab
-      - name: V‑Rep
-        description: ''
-        icon: v-rep
-        icon_pack: fab
+        
       - name: Gazebo
         description: ''
         icon: gazebo
         icon_pack: fab
-      - name: Arduino
-        description: ''
-        icon: arduino
-        icon_pack: fab
-      - name: PLC
-        description: ''
-        icon: plc
-        icon_pack: fab
-      - name: ESP32
-        description: ''
-        icon: esp32
-        icon_pack: fab
-
+        
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -176,27 +166,29 @@ skills:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:muttequreshi@gmail.com'
+    link: 'mailto:Hussein_lobs@outlook.com'
   - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
     link: https://scholar.google.com/citations?hl=en&user=BA7c-hkAAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/muttequrashi/
+    link: https://github.com/husein-loubani/
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/in/mutte-ur-rahman/
+    link: https://www.linkedin.com/in/hussein-loubani/
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: uploads/M_REHMAN_CV.pdf
+    link: uploads/Resume.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-I am Mutte Ur Rehman, a Robotics and Computer Vision Engineer with a passion for solving real-world problems using technology. I have a Master's degree in Computer Vision and Robotics from the Université de Bourgogne in France.
+Engineer in AI Vision and Robotics persuing a PhD in computer vision, specializing in applications for autonomous driving, particularly the generation of virtual environments for training autonomous vehicles. Experienced in image processing, robot control, 3D reconstruction, and advanced vision solutions such as object tracking, multi-session SLAM, and LiDAR super-resolution.
 
-I have experience in developing and deploying computer vision systems using OpenCV, Python, and other tools. I have also worked on designing and building robotic systems, including a smart snowplow robot, a QR-driven parallel automation system, and a UVC light disinfectant robot.
+Skilled in Python, C++, OpenCV, PyTorch, TensorFlow, ROS, GCP, and deep learning.
+
+#AI #Robotics #ComputerVision #DeepLearning #SLAM #3DReconstruction #Python
