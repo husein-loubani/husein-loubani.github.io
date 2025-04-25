@@ -94,7 +94,7 @@ sections:
           location: Beirut, Lebanon - Hybrid
           date_start: '2021-01-01'
           date_end: '2021-03-01'
-          description:|2- 
+          description: |2- 
             • During my internship at CPPR.bl3arabi, I contributed to the development of web and mobile applications, enhancing my technical skills and project experience:​
             • Developed responsive web interfaces using HTML, CSS, and JavaScript, ensuring cross-browser compatibility and user-friendly design.
             • Built dynamic single-page applications with React and Angular, improving user engagement and performance.
