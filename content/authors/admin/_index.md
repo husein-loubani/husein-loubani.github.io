@@ -16,13 +16,13 @@ status:
 # Is this the primary user of the site?
 superuser: true
 
+# Role/position/tagline
+role: AI & Computer Vision | Robotics | 3D Reconstruction | Autonomous Driving
+
 # Organizations/Affiliations to show in About widget
 organizations:
   - name: PhD Researcher @ CIAD Lab, UTBM
     url: https://www.ciad-lab.fr/
-
-# Role/position/tagline
-role: AI & Computer Vision | Robotics | 3D Reconstruction | Autonomous Driving
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
