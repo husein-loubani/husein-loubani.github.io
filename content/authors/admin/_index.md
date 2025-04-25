@@ -129,7 +129,7 @@ social:
     icon_pack: fas
     link: 'mailto:Hussein_lobs@outlook.com'
   - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: ai
+    icon_pack: fab
     link: https://scholar.google.com/citations?hl=en&user=BA7c-hkAAAAJ
   - icon: github
     icon_pack: fab
