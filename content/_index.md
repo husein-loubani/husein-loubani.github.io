@@ -92,11 +92,11 @@ sections:
           date_start: '2021-01-01'
           date_end: '2021-03-01'
           description: During my internship at CPPR.bl3arabi, I contributed to the development of web and mobile applications, enhancing my technical skills and project experience:​
-          - Developed responsive web interfaces using HTML, CSS, and JavaScript, ensuring cross-browser compatibility and user-friendly design.
-          - Built dynamic single-page applications with React and Angular, improving user engagement and performance.
-          - Assisted in the development of mobile applications for both iOS and Android platforms, utilizing platform-specific technologies.
-          - Provided technical consulting to internal teams, offering insights on best practices and innovative solutions for project challenges.
-          - Gained experience in version control systems and agile development methodologies, contributing to efficient workflow and team coordination.
+          – Developed responsive web interfaces using HTML, CSS, and JavaScript, ensuring cross-browser compatibility and user-friendly design.
+          – Built dynamic single-page applications with React and Angular, improving user engagement and performance.
+          – Assisted in the development of mobile applications for both iOS and Android platforms, utilizing platform-specific technologies.
+          – Provided technical consulting to internal teams, offering insights on best practices and innovative solutions for project challenges.
+          – Gained experience in version control systems and agile development methodologies, contributing to efficient workflow and team coordination.
         
   - block: accomplishments
     content:
@@ -111,7 +111,14 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        
+        - certificate_url: https://openbadgefactory.com/v1/assertion/8e9ac953d025869883d4f673027c1e0e34a1a91a
+          date_end: ''
+          date_start: '2025-04-24'
+          description: ''
+          organization: Ministère chargé de l'Enseignement supérieur et de la Recherche
+          organization_url: ''
+          title: FORMENSUP: Training to Teach in Higher Education
+          url: ''
 
         - certificate_url: https://openbadgefactory.com/v1/assertion/832c1294a05ae5feb2fc5d03f66b3bf2a17b548a
           date_end: ''
