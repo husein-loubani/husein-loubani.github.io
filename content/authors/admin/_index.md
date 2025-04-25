@@ -16,13 +16,13 @@ status:
 # Is this the primary user of the site?
 superuser: true
 
-# Role/position/tagline
-role: PhD Researcher| AI & Computer Vision | Robotics | 3D Reconstruction | Autonomous Driving
-
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: CIAD Lab
+  - name: PhD Researcher @ CIAD Lab, UTBM
     url: https://www.ciad-lab.fr/
+
+# Role/position/tagline
+role: AI & Computer Vision | Robotics | 3D Reconstruction | Autonomous Driving
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
@@ -57,106 +57,67 @@ education:
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
 skills:
 
-
   - name: Programming & Development
-    items: 
+  items: 
     
     - name: Python
       description: ''
-      icon: python
-      icon_pack: fab
       
     - name: Data Science
       description: ''
-      icon: chart-line
-      icon_pack: fas
       
     - name: SQL
       description: ''
-      icon: database
-      icon_pack: fas
       
     - name: C/C++
       description: ''
-      icon: cplusplus
-      icon_pack: fab
       
     - name: C#
       description: ''
-      icon: csharp
-      icon_pack: fab
       
     - name: CUDA
       description: ''
-      icon: gpu
-      icon_pack: fas
       
     - name: CMake
       description: ''
-      icon: cmake
-      icon_pack: fab
       
     - name: Matlab
       description: ''
-      icon: matlab
-      icon_pack: fab
     
     - name: Bash & Shell Scripting 
       description: ''
-      icon: bash
-      icon_pack: fab
-
+    
     - name: Git & GitHub
       description: ''
-      icon: github
-      icon_pack: fab
       
     - name: ROS
       description: ''
-      icon: cpu
-      icon_pack: fab
 
-      
   - name: Software
     color: '#eeac02'
     color_border: '#f0bf23'
-    
     items:
     
-      - name: Linux
-        description: ''
-        icon: linux
-        icon_pack: fab
+    - name: Linux
+      description: ''
         
-      - name: Tensorflow
-        description: ''
-        icon: tensorflow
-        icon_pack: fab
+    - name: Tensorflow
+      description: ''
         
-      - name: Pytorch
-        description: ''
-        icon: pytorch
-        icon_pack: fab
+    - name: Pytorch
+      description: ''
         
-      - name: Docker
-        description: ''
-        icon: docker
-        icon_pack: fab
+    - name: Docker
+      description: ''
         
-      - name: OpenCV
-        description: ''
-        icon: opencv
-        icon_pack: fab
+    - name: OpenCV
+      description: ''
         
-      - name: ROS
-        description: ''
-        icon: ros
-        icon_pack: fab
+    - name: ROS
+      description: ''
         
-      - name: Gazebo
-        description: ''
-        icon: gazebo
-        icon_pack: fab
+    - name: Gazebo
+      description: ''
         
 
 # Social/Academic Networking
@@ -168,7 +129,7 @@ social:
     icon_pack: fas
     link: 'mailto:Hussein_lobs@outlook.com'
   - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
+    icon_pack: ai
     link: https://scholar.google.com/citations?hl=en&user=BA7c-hkAAAAJ
   - icon: github
     icon_pack: fab
@@ -189,6 +150,3 @@ highlight_name: true
 
 Engineer in AI Vision and Robotics persuing a PhD in computer vision, specializing in applications for autonomous driving, particularly the generation of virtual environments for training autonomous vehicles. Experienced in image processing, robot control, 3D reconstruction, and advanced vision solutions such as object tracking, multi-session SLAM, and LiDAR super-resolution.
 
-Skilled in Python, C++, OpenCV, PyTorch, TensorFlow, ROS, GCP, and deep learning.
-
-#AI #Robotics #ComputerVision #DeepLearning #SLAM #3DReconstruction #Python
