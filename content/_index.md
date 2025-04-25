@@ -157,7 +157,7 @@ sections:
           title: Python: Master Programing & Development with 15 Projects
           url: ''
           
-          - certificate_url: 
+        - certificate_url: 
           date_end: ''
           date_start: '2023-03-15'
           description: ''
@@ -166,7 +166,7 @@ sections:
           title: ROS Perception
           url: ''
           
-          - certificate_url: 
+        - certificate_url: 
           date_end: ''
           date_start: '2023-02-09'
           description: ''
