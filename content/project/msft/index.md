@@ -1,6 +1,6 @@
 ---
 title: Turtlebot3 Visual Servoing using ROS and Python
-summary: Camera based point A to B movment and parking.
+summary: Camera based point A to B movement and parking.
 tags:
   - ROS
   - Python
