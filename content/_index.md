@@ -59,7 +59,7 @@ sections:
           company: CIAD Lab - Contact
           location: Montbéliard, France - On-site
           date_start: '2023-12-01'
-          date_end: '2026-12-31'
+          date_end: '2026-12-30'
           description: Thesis Subject: Generating virtual environments for the training of autonomous vehicles.
 
         - title: AI Vision & Robotics Engineer
@@ -78,7 +78,7 @@ sections:
           company: The Nawaya Network - Intern
           location: Beirut, Lebanon - Hybrid
           date_start: '2021-03-01'
-          date_end: '2021-06-31'
+          date_end: '2021-06-30'
           description: Participated in the Employment Hub Program, aimed at supporting financially vulnerable Lebanese youth through skill-building and paid internships:
           – Completed comprehensive training in time management, teamwork, problem-solving, and communication, enhancing employability skills.
           – Collaborated with mentors to receive personalized guidance, fostering both personal and professional development.
