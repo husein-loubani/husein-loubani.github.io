@@ -61,9 +61,16 @@ sections:
           date_start: '2023-12-01'
           date_end: '2026-12-30'
           description: |2-
-            Thesis Subject: Generating virtual environments for the training of autonomous vehicles.
+            • Thesis Subject: Generating virtual environments for the training of autonomous vehicles.
 
-    
+        - title: Robotics & Control Engineer Thesis Intern
+          company: ImViA
+          location: Le Creusot, France
+          date_start: '2023-01-01'
+          date_end: '2023-06-30'
+          description: |2-
+            • Engineered non-linear control systems for drones and robots with vision-based autonomy.
+            • Implemented on AR Drone 2.0, DJI Tello Drone, and TurtleBot3 platforms.
         
         
   - block: accomplishments
