@@ -111,7 +111,6 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-      
         - certificate_url: https://openbadgefactory.com/v1/assertion/8e9ac953d025869883d4f673027c1e0e34a1a91a
           date_end: ''
           date_start: '2025-04-24'
@@ -120,69 +119,67 @@ sections:
           organization_url: ''
           title: FORMENSUP: Training to Teach in Higher Education
           url: ''
-          
+
         - certificate_url: https://openbadgefactory.com/v1/assertion/832c1294a05ae5feb2fc5d03f66b3bf2a17b548a
           date_end: ''
           date_start: '2025-03-12'
           description: ''
           organization: Sorbonne Université
           organization_url: ''
-          title: Open Science 
+          title: Open Science
           url: ''
-
 
         - certificate_url: https://openbadgefactory.com/v1/assertion/832c1294a05ae5feb2fc5d03f66b3bf2a17b548a
           date_end: ''
           date_start: '2025-02-12'
           description: ''
-          organization: Univeristé de Lyon 
+          organization: Université de Lyon
           organization_url: ''
           title: Research Ethics
           url: ''
-          
-        - certificate_url: 
+
+        - certificate_url: ''
           date_start: '2023-03-27'
           description: ''
           organization: Udemy
           organization_url: ''
           title: Machine Learning Real World Projects in Python
           url: ''
-          
-        - certificate_url: 
-          date_end: ''
+
+        - certificate_url: ''
           date_start: '2023-02-24'
           description: ''
-          organization: Udemy 
+          organization: Udemy
           organization_url: ''
-          title: Python: Master Programing & Development with 15 Projects
+          title: Python: Master Programming & Development with 15 Projects
           url: ''
-          
-        - certificate_url: 
-          date_end: ''
+
+        - certificate_url: ''
           date_start: '2023-03-15'
           description: ''
           organization: ''
           organization_url: ''
           title: ROS Perception
           url: ''
-          
-        - certificate_url: 
-          date_end: ''
+
+        - certificate_url: ''
           date_start: '2023-02-09'
           description: ''
           organization: ''
           organization_url: ''
           title: Mastering with ROS: TurtleBot3
           url: ''
-          
-        - certificate_url: 
-          date_end: ''
+
+        - certificate_url: ''
           date_start: '2023-01-23'
           description: ''
           organization: ''
           organization_url: ''
           title: Code Foundation for ROS
           url: ''
+      
+          
+          
 
   - block: contact
     id: contact
