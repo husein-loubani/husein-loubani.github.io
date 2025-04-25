@@ -76,18 +76,7 @@ sections:
             • Built pose estimation and control modules in Python and implemented the complete system on ROS using the Franka Emika 3 Panda arm.
             • Evaluated performance through quantitative pose error metrics and object visibility-based visualization tools.
           
-        - title: CultivateMinds: Nurturing Excellence in Soft Skills 
-          company: The Nawaya Network - Intern
-          location: Beirut, Lebanon - Hybrid
-          date_start: '2021-03-01'
-          date_end: '2021-06-30'
-          description: |2- 
-            • Participated in the Employment Hub Program, aimed at supporting financially vulnerable Lebanese youth through skill-building and paid internships:
-            • Completed comprehensive training in time management, teamwork, problem-solving, and communication, enhancing employability skills.
-            • Collaborated with mentors to receive personalized guidance, fostering both personal and professional development.
-            • Engaged in projects addressing social challenges, applying newly acquired skills in practical settings.
-            • Balanced remote and in-person collaboration, adapting to hybrid work environments effectively.
-            • Contributed to initiatives designed to improve livelihoods and promote sustainable futures for disadvantaged communities.
+      
           
         - title: Web & Mobile App Developer
           company: CPPR.bl3arabi - Intern
