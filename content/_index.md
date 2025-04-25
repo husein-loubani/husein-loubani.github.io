@@ -156,13 +156,7 @@ sections:
           title: Mastering with ROS: TurtleBot3
           url: ''
 
-        - certificate_url: https://app.theconstruct.ai/accomplishments/verify/RIA7494DB9F9079/
-          date_start: '2023-01-23'
-          description: ''
-          organization: The Construct
-          organization_url: https://www.theconstruct.ai/
-          title: Code Foundation for ROS
-          url: ''
+        
             
 
   - block: contact
