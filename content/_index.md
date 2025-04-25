@@ -59,7 +59,7 @@ sections:
           company: CIAD Lab - Contact
           location: Montbéliard, France - On-site
           date_start: '2023-12-01'
-          date_end: '2024-12-30'
+          date_end: '2026-12-30'
           description: Thesis Subject: Generating virtual environments for the training of autonomous vehicles.
 
         - title: AI Vision & Robotics Engineer
@@ -153,17 +153,8 @@ sections:
           date_start: '2023-02-24'
           description: ''
           organization: Udemy 
-          organization_url: Pyhton: Master Programing & Development with 15 Projects
-          title: 
-          url: ''
-          
-        - certificate_url: 
-          date_end: ''
-          date_start: '2025-04-24'
-          description: ''
-          organization: 
           organization_url: 
-          title: ROS Perception
+          title: Python: Master Programing & Development with 15 Projects
           url: ''
           
           - certificate_url: 
