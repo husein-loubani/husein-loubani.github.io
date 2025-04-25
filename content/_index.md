@@ -112,6 +112,8 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+       
+
         - certificate_url: https://openbadgefactory.com/v1/assertion/832c1294a05ae5feb2fc5d03f66b3bf2a17b548a
           date_end: ''
           date_start: '2025-03-12'
@@ -136,6 +138,14 @@ sections:
           organization: Udemy
           organization_url: https://www.udemy.com/
           title: Machine Learning Real World Projects in Python
+          url: ''
+
+        - certificate_url: https://www.udemy.com/certificate/UC-ea3d34b2-550e-4dee-9162-82c28bad18a5/
+          date_start: '2023-02-24'
+          description: ''
+          organization: Udemy
+          organization_url: https://www.udemy.com/
+          title: Python: Master Programming & Development with 15 Projects
           url: ''
 
         
