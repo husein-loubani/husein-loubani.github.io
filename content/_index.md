@@ -112,15 +112,7 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://openbadgefactory.com/v1/assertion/8e9ac953d025869883d4f673027c1e0e34a1a91a
-          date_end: ''
-          date_start: '2025-04-24'
-          description: ''
-          organization: Ministère chargé de l'Enseignement supérieur et de la Recherche
-          organization_url: https://www.enseignementsup-recherche.gouv.fr/fr
-          title: FORMENSUP - Training to Teach in Higher Education
-          url: ''
-
+       
         - certificate_url: https://openbadgefactory.com/v1/assertion/832c1294a05ae5feb2fc5d03f66b3bf2a17b548a
           date_end: ''
           date_start: '2025-03-12'
