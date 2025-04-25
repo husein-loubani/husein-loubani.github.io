@@ -121,6 +121,16 @@ sections:
           title: Open Science
           url: ''
 
+        - certificate_url: https://openbadgefactory.com/v1/assertion/832c1294a05ae5feb2fc5d03f66b3bf2a17b548a
+          date_end: ''
+          date_start: '2025-02-12'
+          description: ''
+          organization: Université de Lyon
+          organization_url: https://www.universite-lyon.fr/version-francaise/
+          title: Research Ethics
+          url: ''
+
+        
             
 
   - block: contact
