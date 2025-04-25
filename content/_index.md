@@ -176,7 +176,7 @@ sections:
           title: Mastering with ROS - TurtleBot3
           url: '' 
           
-          
+  - block: contact
     id: contact
     content:
       title: Contact
