@@ -68,7 +68,7 @@ sections:
           location: Le Creusot, France - On-site
           date_start: '2023-02-01'
           date_end: '2023-07-01'
-          description: |2- 
+          description: |
             • As part of my Master's thesis at ImViA Lab, I worked on visuo-tactile perception for in and on-hand robotic manipulation, focusing on detecting object slippage using the Franka Emika 3 Panda robot: 
             • Developed a visuo-tactile fusion pipeline using LSTM and GRU-based RNN models to estimate object pose during dynamic manipulation, even under occlusion.
             • Designed and executed pick-and-place experiments in simulation using PyBullet and transitioned models to a real-world robotic platform.
