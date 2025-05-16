@@ -1,0 +1,55 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "headline": "Hussein Loubani|PhD Researcher & AI Vision Engineer Portfolio",
+  "description": "AI Researcher and Machine Learning Engineer specializing in 3D Computer Vision, autonomous systems, and multimodal data fusion. Explore my projects and academic journey.",
+  "datePublished": "2025-03-11",
+  "dateModified": "2025-03-11",
+  "author": {
+    "@type": "Person",
+    "name": "Hussein Loubani",
+    "jobTitle": "PhD Researcher",
+    "url": "https://www.example.com/",
+    "sameAs": [
+      "https://www.github.com/yourusername",
+      "https://www.linkedin.com/in/yourusername",
+      "https://medium.com/@yourusername",
+      "https://scholar.google.com/citations?user=youruserid"
+    ],
+    "knowsAbout": [
+      "Artificial Intelligence",
+	  "Machine Learning",
+	  "Computer Vision",
+	  "3D Reconstruction",
+	  "SLAM",
+	  "Autonomous Driving",
+	  "Multimodal Sensor Fusion",
+	  "Point Cloud Processing",
+	  "2D/3D Data Alignment",
+	  "Deep Learning"
+	]
+  },
+  "mainEntity": {
+    "@type": "ItemList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Work Experience",
+        "url": "https://www.example.com/#experience"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Projects",
+        "url": "https://www.example.com/#projects"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Interactive Console",
+        "url": "https://www.example.com/#console"
+      }
+    ]
+  }
+}

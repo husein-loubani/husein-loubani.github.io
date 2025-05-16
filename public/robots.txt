@@ -1,0 +1,10 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Allow all directories for better indexing
+Allow: /images/
+Allow: /static/
+
+# Add sitemap reference for better discovery
+Sitemap: https://www.example.com/sitemap.xml
