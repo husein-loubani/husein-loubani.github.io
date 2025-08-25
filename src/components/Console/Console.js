@@ -124,21 +124,22 @@ drwxr-xr-x  7 hloubani  phd  224 Dec 1 10:24 certifications/`
     },
     {
   command: 'neofetch',
-  result: `            .-/+oossssoo+/-.              hussein@ai-loubani
-        \`:+ssssssssssssssssss+:\`           ------------------------
-      -+ssssssssssssssssssyyssss+-         OS: AI Researcher 3.0
-    .ossssssssssssssssss/   /ossssso.      Host: UTBM / CIAD Lab
-   /sssssssssssssssssso/     /sssssss/     Kernel: Brain 9000X
-  +sssssssssssssssssss/       /ssssssso    Uptime: 25 years
- :ssssssssssssssssssss\\       /sssssssss:  Packages: PyTorch, CGAL, C++, Python
- +ssssssssssssssssssssso\\     /sssssssss+  Shell: Vision Terminal 2.3
- +sssssssssssssssssssssssooosssssssssss+  Resolution: 3D Mesh / LoD 2.3
- /ssssssssssssssssssssssssssssssssssssso  DE: Robotics & Perception
- .osssssssssssssssssssssssssssssssssssso  WM: Autonomous Navigation
-  -+sssssssssssssssssssssssssssssssss+-   Terminal: SLAM Shell
-   \\\\ossssssssssssssssssssssssssssso/     CPU: Deep Neural Cortex
-    \`.+ossssssssssssssssssssssssso+.\'      Memory: 2PB Virtual Worlds
-      \`-/+oossssssssssssssssoo+/-\`         Skills: [██████████] 98%
+  result: `
+   hussein@ai-loubani
+   ------------------------
+   OS: AI Researcher 3.0
+   Host: UTBM / CIAD Lab
+   Kernel: Brain 9000X
+   Uptime: 25 years
+   Packages: PyTorch, CGAL, C++, Python
+   Shell: Vision Terminal 2.3
+   Resolution: 3D Mesh / LoD 2.3
+   DE: Robotics & Perception
+   WM: Autonomous Navigation
+   Terminal: SLAM Shell
+   CPU: Deep Neural Cortex
+   Memory: 2PB Virtual Worlds
+   Skills: [██████████] 98%
         `
 }
 
@@ -156,7 +157,7 @@ drwxr-xr-x  7 hloubani  phd  224 Dec 1 10:24 certifications/`
       <TerminalContainer>
         <Terminal 
           commands={commandsData}
-          title="hussein-loubani@machine-learrning ~ $"
+          title="hussein-loubani@machine-learning ~ $"
         />
       </TerminalContainer>
     </RetroSection>
