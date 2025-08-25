@@ -746,7 +746,7 @@ const Header = () => {
   // Terminal typewriter effect with optimized implementation
   const [cursorVisible, setCursorVisible] = useState(true);
   const [typedText, setTypedText] = useState('');
-  const fullText = 'Autonomous Driving';
+  const fullText = 'Computer Vision';
   
   // Optimized typewriter effect with memoized timeout reference
   useEffect(() => {
