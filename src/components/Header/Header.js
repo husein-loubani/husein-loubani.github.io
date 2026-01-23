@@ -902,7 +902,7 @@ const Header = () => {
                 fetchPriority="low"
                 style={{ 
                   position: 'absolute',
-                  right: isTablet ? '700px' : '700px',
+                  right: isTablet ? '-40px' : '-60px',
                   top: '10%',
                   transform: 'translateY(-50%)',
                   height: isTablet ? '360px' : '500px',
