@@ -26,7 +26,7 @@ const pulse = keyframes`
 `;
 
 // container for timeline
-const ExperienceContainer = styled.div`
+const EducationContainer = styled.div`
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
@@ -157,7 +157,7 @@ const YearMarker = styled(motion.div)`
 `;
 
 // glass-morphism job card with consistent spacing
-const ExperienceCard = styled(motion.div)`
+const EducationCard = styled(motion.div)`
   position: relative;
   background: ${props => `linear-gradient(120deg, rgba(22, 22, 26, 0.9) 0%, rgba(${props.bgColorRGB || '22, 22, 26'}, 0.06) 100%)`};
   border-radius: 16px;
@@ -482,33 +482,39 @@ const TechButton = styled.button`
   }
 `;
 
-// Experience data with company information
-const experienceData = [
+// Education data with company information
+const educationData = [
   {
     id: 1,
+    year: 2025,
+    company: 'Turing College',
+    logo: 'https://media.licdn.com/dms/image/v2/D4D0BAQHDkx6KvO4mXQ/company-logo_200_200/B4DZY6cXNWHAAI-/0/1744737236278/turingcollege2_logo?e=1770854400&v=beta&t=SGZA1S_iAQr3kKb7vrFG_AZH5EKUrhZT4Vffpy44xOg',
+    logoBackground: '#808080', // grey
+    bgColorRGB: hexToRgb('#808080'),
+    bgPattern: 'radial-gradient(circle at 90% 10%, rgba(24, 119, 242, 0.08), transparent 30%)',
+    title: 'Data Science & AI Engineering',
+    dateRange: 'September 2025 - Present Lithuania - Online',
+    // Simple array of strings - each item will be a bullet point
+    descriptionPoints: [
+      'Full Scholarship Recipient',
+      'Attending a 16-month professional program focused on real-world AI applications, data science workflows, and career readiness, with a strong emphasis on hands-on projects and mentorship by industry experts.',
+      'Core coursework: Data Wrangling, Machine learning, Deep learning, model evaluation, and production workflows',
+      'Specializations: Computer Vision, Natural Language Processing (NLP), and AI engineering for LLM application development',
+      'AI engineering track: Prompt engineering, APIs (OpenAI, Anthropic, Gemini, Llama), and RAG pipelines with vector DBs (ChromaDB) via LangChain and LangGraph',
+      'Projects: 40+ hands-on projects, and a capstone tackling a real client’s business challenge, and delivering an end-to-end LLM-powered application with agents and memory, plus a shareable demo (Gradio)',
+      ' Support: One-on-one mentorship, regular standups, expert reviews, peer feedback, and a strong community for continuous progress'
+    ],
+    technologies: ['Data Science', 'Big Data Analysis', 'Data Visualization', 'Statistics & Probabilities', 'PostgreSQL', 'Machine Learning' , 'Scikit-Learn', 'NLP', 'RAG', 'LLM', 'AI Agents', 'Git', 'Docker', 'SQL' ]
+  },
+  { 
+    id: 2,
     year: 2023,
     company: 'UTBM',
     logo: 'https://media.licdn.com/dms/image/v2/D4E0BAQFIjRLAaKha-w/company-logo_200_200/company-logo_200_200/0/1731418743765/universite_de_technologie_de_belfort_montbeliard_logo?e=1770854400&v=beta&t=kS0ockP7vdKQaqAsgCvqtEpO4MtUBjkwy8ZN8RcGazM',
     logoBackground: '#89CFF0', // baby blue
     bgColorRGB: hexToRgb('#89CFF0'),
     bgPattern: 'radial-gradient(circle at 90% 10%, rgba(24, 119, 242, 0.08), transparent 30%)',
-    title: 'Teaching Fellow',
-    dateRange: 'December 2024 - Present Belfort, France - Onsite',
-    // Simple array of strings - each item will be a bullet point
-    descriptionPoints: [
-      'Subjects Taught : Image Processing, Mobile Robotics, Vision-based control',
-    ],
-    technologies: ['Higher Education Teaching', 'Instructional Design', 'Learning Assessment', 'Active Learning', 'Presentation Skills']
-  },
-  { 
-    id: 2,
-    year: 2023,
-    company: 'CIAD Lab',
-    logo: 'https://media.licdn.com/dms/image/v2/C4D0BAQEGX5W2c8VSGQ/company-logo_200_200/company-logo_200_200/0/1630516829513/ciad_lab_logo?e=1770854400&v=beta&t=2x9QnscQ8qbwKpl-4My3dzF7QtZ5-KZkTt8woRRD89c',
-    logoBackground: '#28a745', // Green
-    bgColorRGB: hexToRgb('#28a745'),
-    bgPattern: 'radial-gradient(circle at 90% 10%, rgba(24, 119, 242, 0.08), transparent 30%)',
-    title: 'Doctoral Researcher',
+    title: 'PhD - Computer Science',
     dateRange: 'December 2023 - Present Montbélaird, France - Onsite',
     // Simple array of strings - each item will be a bullet point
     descriptionPoints: [
@@ -517,39 +523,38 @@ const experienceData = [
       'Designed an end-to-end pipeline for 2D/3D alignment, reconstruction, and semantic enrichment from multi-modal data.',
       'Built reproducible experiments and evaluation protocols for model quality, alignment accuracy, and robustness.'
     ],
-    technologies: [ 'Computer Vision', 'Visual Localisation','Robot Navigation','SLAM', "Autonomous Vehicles", '3D Reconstruction', 'Deep Learning', 'Point Clouds', 'LiDAR', 'Self Learning', 'Project Management']
+    technologies: [ 'Computer Vision', 'Autonomous Vehicle','Robot Navigation','SLAM', "Autonomous Vehicles", '3D Reconstruction', 'Deep Learning', 'Point Clouds', 'LiDAR', 'Self Learning', 'Project Management']
   },
   {
     id: 3,
-    year: 2023,
-    company: 'ImViA Lab',
-    logo: 'https://media.licdn.com/dms/image/v2/C560BAQGfc7VmEi2b-g/company-logo_200_200/company-logo_200_200/0/1630599548773?e=1770854400&v=beta&t=BYD7iQ-91OWtPNvoFZhvFPNaR9daDirft-uD-7h2_Uc',
-    logoBackground: '#FFA500', // Red
-    bgColorRGB: hexToRgb('#FFA500'),
+    year: 2025,
+    company: 'University of Oxford',
+    logo: 'https://media.licdn.com/dms/image/v2/D4E0BAQGnc4qXLbE8Sg/company-logo_200_200/company-logo_200_200/0/1709206435851/oxforduni_logo?e=1770854400&v=beta&t=ZKroQwCqEXi1WPxo57eTODENSTfpzxZkUS8XUpoahFU',
+    logoBackground: '#00008B', // Dark blue
+    bgColorRGB: hexToRgb('#00008B'),
     bgPattern: 'linear-gradient(135deg, rgba(213, 43, 30, 0.07) 0%, transparent 70%)',
-    title: 'Computer Vision & Robotics Engineer',
-    dateRange: 'February 2023 - July 2023 Le Creusot, France - Onsite',
+    title: 'Summer School - Representation learning & Generative AI',
+    dateRange: 'July 2025 Oxford, United Kingdom - Onsite',
     // Simple array of strings - each item will be a bullet point
     descriptionPoints: [
-      'As part of my Master’s thesis at ImViA Lab, I worked on visuo-tactile perception for in and on-hand robotic manipulation, focusing on detecting object slippage using the Franka Emika 3 Panda robot',
-      'Developed a visuo-tactile fusion pipeline using LSTM and GRU-based RNN models to estimate object pose during dynamic manipulation, even under occlusion.',
-      'Designed and executed pick-and-place experiments in simulation using PyBullet and transitioned models to a real-world robotic platform.',
-      'Integrated tactile sensing with vision data to detect object slippage during actions like rotation, sliding, and flipping.',
-      'Built pose estimation and control modules in Python and implemented the complete system on ROS using the Franka Emika 3 Panda arm.',
-      'Evaluated performance through quantitative pose error metrics and object visibility-based visualization tools.'
+      'Attended the Oxford Machine Learning Summer School (OxML 2025), specifically the MLx module on Representation Learning & Generative AI. This program brings together global researchers, industry experts, and practitioners to explore cutting-edge advances in modern machine learning.',
+      'Core Topics: Multi-modal representation learning, computer vision, large language models (LLMs), geometrical deep learning, generative AI systems, reinforcement learning, AI alignment and safety',
+      'Expert Faculty: Sessions led by top researchers from the University of Oxford, UCL, University of Amsterdam, Google DeepMind, and Meta AI',
+      'Program Highlights: Hands-on workshops, interactive lectures, and discussions on the scientific and ethical challenges of deploying AI in real-world settings',
+      'This immersive program is designed to deepen expertise in the theory and practice of advanced machine learning methods, with a focus on building next-generation AI systems in a responsible and effective manner.',
     ],
-    technologies: [ 'Computer Vision', 'Tactile Sensing', 'Pose Estimation', 'Robotics Manipulation', 'TensorFlow', 'OpenCV', 'PyTorch', 'ROS', 'LSTM', 'GRU', 'PyBullet', 'Control Systems']
+    technologies: [ 'Generative AI', 'LLM', 'Transformers', 'Generative Modeling', 'Deep Learning']
   },
   {
     id: 4,
-    year: 2021,
-    company: 'The Nawaya Network ',
-    logo: 'https://media.licdn.com/dms/image/v2/C4E0BAQF4SU5r0b-0pg/company-logo_200_200/company-logo_200_200/0/1631313630138?e=1770854400&v=beta&t=olbs5cQaPPPbeml_rzK4SOi87fKzUs1a-k3ZQm0ND_g',
-    logoBackground: '#800080', 
-    bgColorRGB: hexToRgb('#800080'), // Using dark gray for better visibility
+    year: 2024,
+    company: 'Eindhoven University of Technology',
+    logo: 'https://media.licdn.com/dms/image/v2/D4E0BAQHMbGGFMxd-RQ/company-logo_200_200/B4EZncpxfyHgAI-/0/1760343562663/eindhoven_university_of_technology_logo?e=1770854400&v=beta&t=e6z5bh0hltWvywwks7hL9LDce65A1xYXLBH_HZESzOM',
+    logoBackground: '#ffA500', 
+    bgColorRGB: hexToRgb('#ffA500'), // Orange
     bgPattern: 'repeating-linear-gradient(to right, rgba(85, 85, 85, 0.02), rgba(85, 85, 85, 0.02) 1px, transparent 1px, transparent 30px)',
-    title: 'Soft Skills and Employability Program',
-    dateRange: 'March 2021 - June 2021 Beirut, Lebanon - Hybrid',
+    title: 'Summer School - Generative Modeling',
+    dateRange: 'June 2024 Eindhoven, Netherlands - Onsite',
     // Simple array of strings - each item will be a bullet point
     descriptionPoints: [
       'Participated in the Employment Hub Program, aimed at supporting financially vulnerable Lebanese youth through skill-building and paid internships',
@@ -559,32 +564,54 @@ const experienceData = [
       'Balanced remote and in-person collaboration, adapting to hybrid work environments effectively.',
       'Contributed to initiatives designed to improve livelihoods and promote sustainable futures for disadvantaged communities.'
     ],
-    technologies: ['Communication Tools', 'Project Management', 'Remote Collaboration', 'Teamwork', 'Time Management', 'Creative Problem Solving', 'Critical Thinking', 'Presentation Skills']
+    technologies: ['Generative Modeling', 'Diffusion Models', 'Transformers', 'Generative AI', 'Machine Learning']
   },
   {
     id: 5,
     year: 2021,
-    company: 'Career Orientation and Readiness',
-    logo: 'https://media.licdn.com/dms/image/v2/C4D0BAQGrTtmPRMXmMw/company-logo_200_200/company-logo_200_200/0/1640849409428?e=1770854400&v=beta&t=mRrD3Au11P5JFf2Tk22vKs1jUg2hZtYD_oFBrnGfLrQ',
-    logoBackground: '#0000FF', 
-    bgColorRGB: hexToRgb('#0000FF'),
+    company: 'Université Bourgogne Europe',
+    logo: 'https://media.licdn.com/dms/image/v2/D4E0BAQGa3yFcS-8EIg/company-logo_200_200/company-logo_200_200/0/1736179433355/universite_bourgogne_europe_logo?e=1770854400&v=beta&t=RQWEb3i42CEQsqYSxMexbqvTw0Cnhk6_YaVhNdvx4pk',
+    logoBackground: '##FF0000', // Red
+    bgColorRGB: hexToRgb('#FF0000'),
     bgPattern: 'radial-gradient(circle at 90% 90%, rgba(255, 153, 0, 0.08), transparent 40%)',
-    title: 'Web & Mobile App Developer',
-    dateRange: 'January 2021 - March 2021 Beirut, Lebanon - Hybrid',
+    title: 'MSc - Computer Vision & Robotics',
+    dateRange: 'September 2021 - July 2023 Le Creusot, France - Onsite',
     // Simple array of strings - each item will be a bullet point
     descriptionPoints: [
-      'During my internship at Career Orientation and Readiness, I contributed to the development of web and mobile applications, enhancing my technical skills and project experience',
-      'Developed responsive web interfaces using HTML5, CSS3, and JavaScript, ensuring cross-browser compatibility and user-friendly design.',
-      'Built dynamic single-page applications with React and Angular, improving user engagement and performance.',
-      'Assisted in the development of mobile applications for both iOS and Android platforms, utilizing platform-specific technologies.',
-      'Provided technical consulting to internal teams, offering insights on best practices and innovative solutions for project challenges.',
-      'Gained experience in version control systems and agile development methodologies, contributing to efficient workflow and team coordination.'
+      'Completed the VIBOT program, a specialized Master\'s focusing on the integration of computer vision and robotics.',
+      'Signal and Image Processing: Studied software and hardware aspects of signal and image processing.​',
+      'Computer Vision Techniques: Explored compression, segmentation, real-time processing, shape recognition, and 3D vision methodologies.​',
+      'Robotics: Covered fundamentals, control systems, and programming for robot autonomy and intelligence.​',
+      'Medical Imaging: Examined biological bases and various imaging modalities, including infrared, X-ray, and ultrasound.​',
+      'Research Training: Engaged in a research training period, applying acquired knowledge to practical projects.​',
+      'This program equipped me with comprehensive skills in vision and robotics, preparing me for advanced roles in research and industry.'
     ],
-    technologies: ['HTML5', 'CSS3', 'JavaScript', 'React', 'Angular', 'Mobile App Development', 'iOS', 'Android', 'Version Control (Git)', 'Agile Methodologies', 'Responsive Design']
+    technologies: ['Computer Vision', 'Robotics', 'ROS', 'OpenCV', 'Python', 'Pattern Recognition', 'Multi Sensor Fusion']
+  },
+  {
+    id: 6,
+    year: 2018,
+    company: 'Lebanese International University',
+    logo: 'https://media.licdn.com/dms/image/v2/C4E0BAQFbRkjXMVFFmQ/company-logo_200_200/company-logo_200_200/0/1631310507909?e=1770854400&v=beta&t=KZ6c-Imkb6ioiiw6iH-jxFfxP0j5VWOX8ZLTtFaqoLc',
+    logoBackground: '##00FF00', // Green
+    bgColorRGB: hexToRgb('##00FF00'),
+    bgPattern: 'radial-gradient(circle at 90% 90%, rgba(255, 153, 0, 0.08), transparent 40%)',
+    title: 'BSc - Computer Engineering',
+    dateRange: 'September 2018 - July 2021 Beirut, Lebanon - Onsite',
+    // Simple array of strings - each item will be a bullet point
+    descriptionPoints: [
+      'Completed a rigorous engineering program, blending theoretical knowledge and practical training in both hardware and software systems, with a strong focus on embedded systems, digital design, and networked technologies.',
+      'Built a strong foundation in mathematics, physics, and statistics, supporting analytical thinking and systems-level problem solving.​',
+      'Gained hands-on experience in micro-controller programming, digital circuit design, and signal processing through lab-based courses and simulation tools.​',
+      'Developed software engineering skills through projects involving object-oriented programming, web and mobile app development, and database systems.',
+      '​Applied engineering principles in real-world scenarios during a capstone project, integrating embedded hardware with software to address practical challenges.',
+      'Strengthened communication, project planning, and teamwork abilities through coursework in engineering ethics, economics, and technical writing.​'
+    ],
+    technologies: ['Micro-controllers', 'MySQL', 'Mobile Application Development', 'Web Development', 'JSON', 'JavaScript', 'C/C++', 'Oracle', 'Raspberry Pi', 'Arduino']
   }
 ];
 
-const WorkExperience = () => {
+const Education = () => {
   // State for tracking active cards
   const [activeCard, setActiveCard] = useState(null);
   
@@ -593,16 +620,16 @@ const WorkExperience = () => {
   return (
     <>
       <RetroSection 
-        id="experience"
-        title="Experience"
+        id="education"
+        title="Education"
         titleColor="#3182CE" // Modern blue color scheme
         gridColor="#3182CE"
         gridOpacity="100s" // Subtle grid
-        className="experience-section"
+        className="education-section"
       >
         <InView threshold={0.1} triggerOnce>
           {({ ref, inView }) => (
-            <ExperienceContainer ref={ref}>
+            <EducationContainer ref={ref}>
               {/* Timeline axis */}
               <TimelineAxis />
               
@@ -651,9 +678,9 @@ const WorkExperience = () => {
                 <span className="mobile-year">21</span>
               </YearMarker>
               
-              {/* Experience cards with glass-morphism styling */}
-              {experienceData.map((job, index) => (
-                <ExperienceCard
+              {/* Education cards with glass-morphism styling */}
+              {educationData.map((job, index) => (
+                <EducationCard
                   key={job.id}
                   accentColor={job.logoBackground}
                   bgColorRGB={job.bgColorRGB}
@@ -717,9 +744,9 @@ const WorkExperience = () => {
                       ))}
                     </TechStack>
                   </JobDetails>
-                </ExperienceCard>
+                </EducationCard>
               ))}
-            </ExperienceContainer>
+            </EducationContainer>
           )}
         </InView>
       </RetroSection>
@@ -730,4 +757,4 @@ const WorkExperience = () => {
   );
 };
 
-export default WorkExperience;
+export default Education;

@@ -100,28 +100,6 @@ const HeaderContainer = styled.div`
     0%, 100% { transform: translateY(-50%) scale(1.0); opacity: 0.7; }
     50% { transform: translateY(-50%) scale(1.1); opacity: 0.9; }
   }
-  
-  /* Add the glowing background effect directly to the header */F
-  &:before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 300px;
-    background: radial-gradient(circle at center, 
-      ${COLORS.retroPrimary}40,
-      ${COLORS.retroSecondary}20,
-      ${COLORS.retroPrimary}05,
-      transparent 70%
-    );
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    border-radius: 100%;
-    opacity: 0.8;
-    filter: blur(60px);
-    z-index: 0;
-    animation: softWave 20s infinite ease-in-out;
-  }
 `;
 
 
@@ -308,7 +286,7 @@ const LastName = styled(motion.div)`
 `;
 
 // electrified text with creative shadow placement
-const MachineLoehrning = styled(motion.div)`
+const TitleName = styled(motion.div)`
   font-family: ${FONTS.mono};
   font-size: clamp(3.8rem, 4.5vw, 2.8rem);
   color: ${COLORS.retroPrimary};
@@ -346,10 +324,12 @@ const MachineLoehrning = styled(motion.div)`
   
   /* Unique ASCII-art inspired bracket design - digital hipster aesthetic */
   &:after {
-    content: '{PhD Researcher @ CIAD}';
+    content: '{Computer Vision & Robotics Researcher @ CIAD}';
     position: absolute;
-    bottom: -18px;
-    left: 22%; 
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 110%);
+    white-space: nowrap;
     font-family: ${FONTS.mono};
     font-size: 20px;
     font-weight: 300;
@@ -746,7 +726,7 @@ const Header = () => {
   // Terminal typewriter effect with optimized implementation
   const [cursorVisible, setCursorVisible] = useState(true);
   const [typedText, setTypedText] = useState('');
-  const fullText = 'Autonomous Driving';
+  const fullText = 'AI Engineer · Product-minded · Speaker';
   
   // Optimized typewriter effect with memoized timeout reference
   useEffect(() => {
@@ -788,17 +768,17 @@ const Header = () => {
     { text: "Autonomous Driving", icon: <BiSolidCarMechanic />, blink: true },
     { text: "Robotics", icon: <FaRobot />, blink: true },
     { text: "3D Reconstruction", icon: <BsImageAlt />, blink: true },
-    { text: "Data Science", blink: false, icon: <BiCodeAlt /> , blink: true},
-    { text: "C/C++", blink: false, icon: <BiTerminal /> , blink: true},
-    { text: "Python", blink: false, icon: <BiTerminal /> , blink: true},
-    { text: "JAVA", blink: false, icon: <BiTerminal /> , blink: true},
-    { text: "TensorFlow", blink: false, icon: <BiTerminal /> , blink: true},
-    { text: "PyTorch", blink: false, icon: <BiTerminal /> , blink: true},
-    { text: "Natural Language Processing", blink: true, icon: <BiData /> , blink: true},
-    { text: "SQL Databases", blink: false, icon: <BiData/> , blink: true},  
-  ]);
+    { text: "Data Science", icon: <BiCodeAlt /> , blink: true},
+    { text: "C/C++", icon: <BiTerminal /> , blink: true},
+    { text: "Python",  icon: <BiTerminal /> , blink: true},
+    { text: "JAVA",  icon: <BiTerminal /> , blink: true},
+    { text: "TensorFlow", icon: <BiTerminal /> , blink: true},
+    { text: "PyTorch", icon: <BiTerminal /> , blink: true},
+    { text: "Natural Language Processing", icon: <BiData /> , blink: true},
+    { text: "SQL Databases", icon: <BiData/> , blink: true},  
+  ], []);
 
-  
+
   // Optimized scroll handler with memoization
   const scrollToSection = useCallback((id) => {
     const element = document.getElementById(id);
@@ -812,7 +792,7 @@ const Header = () => {
   }, []);
 
   return (
-    <HeaderContainer id="home" role="banner" aria-label="Hussein Loubani-3D Vision for Autonomous Driving">
+    <HeaderContainer id="home" role="banner" aria-label="Hussein Loubani">
       {/* Name display with visually hidden H1 for SEO and accessibility */}
       <NameContainer>
         {/* SEO-optimized accessible heading using proper visually hidden technique */}
@@ -828,7 +808,7 @@ const Header = () => {
             whiteSpace: 'nowrap',
             borderWidth: 0
           }}
-          aria-label="Hussein Loubani - 3D Vision for Autonomous Driving"
+          aria-label="Hussein Loubani"
         >
           Hussein Loubani - AI/ML Engineer and PhD Researcher
         </h1>
@@ -876,10 +856,10 @@ const Header = () => {
           justifyContent: isMobile ? 'flex-start' : 'center',
           marginTop: isMobile ? '15vh' : (isTablet ? '25vh' : '0') 
         }}>
-          {/* Machine Loehrning */}
+          {/* TitleName */}
           <div style={{ position: 'relative', display: 'inline-block' }}>
             {!isMobile && (
-              <MachineLoehrning
+              <TitleName
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
@@ -889,7 +869,7 @@ const Header = () => {
                 }}
               >
                 Hussein Loubani
-              </MachineLoehrning>
+              </TitleName>
             )}
             {!isMobile && (
               <motion.img 
@@ -954,7 +934,7 @@ const Header = () => {
           >
             <TerminalButton 
               href="https://github.com/husein-loubani" 
-              aria-label="Visit Hussien's GitHub profile"
+              aria-label="Visit Hussein's GitHub profile"
               rel="noopener noreferrer"
               icon={<FaGithub />}
             >

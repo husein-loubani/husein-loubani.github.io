@@ -1,17 +1,25 @@
-import React, { Suspense, lazy, useEffect, useState, useMemo } from 'react';
-import styled, { keyframes } from 'styled-components';
-import { motion, useScroll, useTransform } from 'framer-motion';
-import { BiCodeAlt } from 'react-icons/bi';
-import { GlobalStyle } from './components/ui/Theme';
-import Header from './components/Header/Header';
-import { COLORS } from './components/ui/Theme';
+import React, { Suspense, lazy, useEffect, useState, useMemo } from "react";
+import styled, { keyframes } from "styled-components";
+import { motion, useScroll, useTransform } from "framer-motion";
+
+import Header from "./components/Header/Header";
+import { GlobalStyle, COLORS } from "./components/ui/Theme";
+
+import { BiCodeAlt, BiChip, BiTerminal, BiData, BiSolidCarMechanic } from "react-icons/bi";
+import { GiArtificialIntelligence, GiArchiveResearch } from "react-icons/gi";
+import { TbPhotoSensor2 } from "react-icons/tb";
+import { BsImageAlt } from "react-icons/bs";
+import { FaRobot } from "react-icons/fa";
 
 // Lazy load non-critical components
-const WorkExperience = lazy(() => import('./components/WorkExperience/WorkExperience'));
-const Projects = lazy(() => import('./components/Projects/Projects'));
-const RunningBanner = lazy(() => import('./components/ui/RunningBanner'));
-const Console = lazy(() => import('./components/Console/Console'));
-const QuantumBackground = lazy(() => import('./components/ui/QuantumBackground'));
+const WorkExperience = lazy(() => import("./components/WorkExperience/WorkExperience"));
+const Projects = lazy(() => import("./components/Projects/Projects"));
+const Education = lazy(() => import('./components/Education/Education'));
+const RunningBanner = lazy(() => import("./components/ui/RunningBanner"));
+const Console = lazy(() => import("./components/Console/Console"));
+const QuantumBackground = lazy(() => import("./components/ui/QuantumBackground"));
+
+
 
 // Animation keyframes for performance-optimized UI effects
 const animations = {
@@ -200,7 +208,7 @@ const App = React.memo(function App() {
             backgroundImage: `
               linear-gradient(217deg, rgba(49, 130, 206, 0.15), rgba(49, 130, 206, 0) 70.71%),
               linear-gradient(127deg, rgba(229, 62, 62, 0.15), rgba(229, 62, 62, 0) 70.71%),
-              linear-gradient(336deg, rgba(253, 238, 33, 0.18), rgba(253, 238, 33, 0) 70.71%)
+              linear-gradient(336deg, rgba(253, 238, 33, 0.00), rgba(253, 238, 33, 0) 70.71%)
             `,
             backgroundSize: '200% 200%',
             filter: backgroundGradientRotate,
@@ -244,6 +252,12 @@ const App = React.memo(function App() {
             </Suspense>
           </article>
           
+          <article id="experience">
+            <Suspense fallback={<LoadingPlaceholder />}>
+              <Education />
+            </Suspense>
+          </article>
+          
           <article id="projects">
             <Suspense fallback={<LoadingPlaceholder />}>
               <Projects />
@@ -257,20 +271,26 @@ const App = React.memo(function App() {
               aria-label="Personal interests"
             >
               <Suspense fallback={<LoadingPlaceholder />}>
-                <RunningBanner 
-                  items={[
-                    { text: "Cooking", blink: true, icon: <BiCodeAlt /> },
-                    { text: "Programming", blink: false, icon: <BiCodeAlt /> },
-                    { text: "Piano", blink: true, icon: <BiCodeAlt /> },
-                    { text: "Guitar", blink: false, icon: <BiCodeAlt /> },
-                    { text: "Reading", blink: true, icon: <BiCodeAlt /> },
-                    { text: "Timchi", blink: false, icon: <BiCodeAlt /> },
-                    { text: "Bouldering", blink: true, icon: <BiCodeAlt /> },
-                    { text: "Golf", blink: false, icon: <BiCodeAlt /> },
-                    { text: "Padel", blink: true, icon: <BiCodeAlt /> },
-                  ]}
-                />
-              </Suspense>
+              <RunningBanner 
+                items={[
+                  { text: "Artificial Intelligence", icon: <GiArtificialIntelligence />, blink: true },
+                  { text: "Computer Vision", icon: <TbPhotoSensor2 />, blink: true },
+                  { text: "Machine Learning", icon: <BiChip />, blink: true },
+                  { text: "Research", icon: <GiArchiveResearch />, blink: true },
+                  { text: "Autonomous Driving", icon: <BiSolidCarMechanic />, blink: true },
+                  { text: "Robotics", icon: <FaRobot />, blink: true },
+                  { text: "3D Reconstruction", icon: <BsImageAlt />, blink: true },
+                  { text: "Data Science", icon: <BiCodeAlt />, blink: true },
+                  { text: "C/C++", icon: <BiTerminal />, blink: true },
+                  { text: "Python", icon: <BiTerminal />, blink: true },
+                  { text: "JAVA", icon: <BiTerminal />, blink: true },
+                  { text: "TensorFlow", icon: <BiTerminal />, blink: true },
+                  { text: "PyTorch", icon: <BiTerminal />, blink: true },
+                  { text: "Natural Language Processing", icon: <BiData />, blink: true },
+                  { text: "SQL Databases", icon: <BiData />, blink: true },
+                ]}
+              />
+            </Suspense>
             </section>
           )}
 
@@ -287,8 +307,8 @@ const App = React.memo(function App() {
         <footer>
           <p itemScope itemType="http://schema.org/Person">
             &copy; {new Date().getFullYear()} 
-            <span itemProp="name"> Tim Loehr</span> · Made with 
-            <span style={{ color: COLORS.retroPrimary }}> Machine Loehrning</span>
+            <span itemProp="name"> Hussein Loubani</span> · Built with 
+            <span style={{ color: COLORS.retroPrimary }}> React</span>
           </p>
         </footer>
       </AppContainer>
